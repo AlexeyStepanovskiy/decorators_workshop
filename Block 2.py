@@ -121,10 +121,10 @@ def greet_gl_cnt(name: str) -> str:
 
 names = ['Анна', 'Владимир', 'Антон', 'Валерий', 'Анастасия', 'Василий',
          'Алексей', 'Вениамин', 'Алла', 'Варвара']
+
 [print(greet_gl_cnt(names[i])) for i in range(0, 10)]
 
-print(
-    f'\nФункция {greet_gl_cnt.__name__} была вызвана {GREET_COUNTER} раз(а).\n')
+print(f'\nФункция {greet_gl_cnt.__name__} была вызвана {GREET_COUNTER} раз(а).\n')
 
 # Через атрибут функции
 
